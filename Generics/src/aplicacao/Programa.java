@@ -11,7 +11,7 @@ public class Programa {
 
 		Scanner sc = new Scanner(System.in);
 
-		PrintService ps = new PrintService();
+		PrintService<Integer> ps = new PrintService<>();	//Instanciando um printservice do tipo Interger. Agora ele não é mais genérico e sim espcifico
 
 		System.out.print("Quantos valores serão informados? ");
 		int n = sc.nextInt();
